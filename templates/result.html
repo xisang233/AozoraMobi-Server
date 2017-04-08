@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{bookname}} {{author}}</title>
+</head>
+<body>
+  {% for book in books %}
+    <div>
+      {{ book.__str__() }}
+      <a href="epub/{{book.epubfile}}" >epub</a>
+      <a href="mobi/{{book.mobifile}}" >mobi</a>
+    </div>
+  {% endfor %}
+</body>
+</html>

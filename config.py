@@ -1,0 +1,5 @@
+WEBLOCAL = r'D:\aozorabunko@2016.12.29'
+WEBURL   = 'http://www.aozora.gr.jp'
+CSV_PATH = WEBLOCAL + '/index_pages/list_person_all_extended_utf8.zip'
+EPUBPATH = 'D:\青空文库全作品_2016.7\epub'
+MOBIPATH = 'D:\青空文库全作品_2016.7\mobi'
