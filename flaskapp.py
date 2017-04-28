@@ -5,8 +5,6 @@ from flask import Flask
 import search
 from flask import render_template
 from flask import request
-from flask import send_file
-
 
 app = Flask('name')
 
