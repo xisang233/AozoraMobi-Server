@@ -9,10 +9,35 @@
             <td><input type="text" id="txtname" name="author" /></td>
         </tr>
         <tr>
-            <input type="submit" />
+            <input value="搜索" type="submit" />
         </tr>
     </table>
-    <dir>
-        <a href='help'>帮助文件</a>
-    </dir>
-</form> 
+</form>
+
+<form enctype="multipart/form-data" action="fromURL" method="get">
+    <table>
+        <tr>
+            <td><label for="txtname">url(卡片)：</label></td>
+            <td><input type="text" id="txtname" name="url" /></td>
+        </tr>
+        <tr>
+            <input value="直接获取" type="submit" />
+        </tr>
+    </table>
+</form>
+
+<form enctype="multipart/form-data" action="fromID" method="get">
+    <table>
+        <tr>
+            <td><label for="txtname">图书编号：</label></td>
+            <td><input type="text" id="txtname" name="number" /></td>
+        </tr>
+        <tr>
+            <input value="直接获取" type="submit" />
+        </tr>
+    </table>
+</form>
+
+<a href="help">帮助文件</a>
+
+<a href="hello-j">日本語使用者はこちらへ</a>
